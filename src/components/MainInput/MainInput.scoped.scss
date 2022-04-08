@@ -1,0 +1,33 @@
+.input-container {
+  display: flex;
+  bottom: 0;
+  width: 100%;
+  background-color: #3e4042;
+  border-radius: 18px;
+  align-items: center;
+}
+
+.input-container .main-input {
+  max-height: 130px;
+  resize: both;
+  outline: none;
+  background-color: #3e4042;
+  border: none;
+  overflow-y: auto;
+  color: white;
+  padding: 8px 15px;
+  width: 100%;
+  border-radius: 18px;
+  max-width: 100%;
+}
+
+.submit-button {
+  fill: #0084ff;
+  margin-left: 9px;
+}
+.button-send {
+  border-radius: 4px;
+  padding-right: 20px;
+  color: #0084ff;
+  cursor: pointer;
+}
