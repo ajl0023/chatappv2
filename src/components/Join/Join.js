@@ -24,9 +24,9 @@ export default function Join(props) {
     context.setSocket();
     setIsValid(true);
   };
-  useEffect(() => {
-    setName("test");
-  }, []);
+  // useEffect(() => {
+  //   setName("test");
+  // }, []);
   useEffect(() => {
     if (name.length > 0) {
       handleEnter();
